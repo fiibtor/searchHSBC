@@ -1,0 +1,75 @@
+@layer theme, base, components, utilities;
+@import "tailwindcss";
+@import "fonts.css";
+
+html {
+    font-family: monospace;
+    background-color: #535353;
+}
+.search_result {
+    font-family: courier, monospace;
+    font-weight: 600;
+    font-size: 14px;
+}
+.font-serif {
+    font-family: garamondPro, serif;
+    font-size: 16px;
+}
+.log {
+    white-space: break-spaces;
+    display: flex;
+    flex-direction: column;
+}
+.block{
+    white-space: break-spaces;
+    display: flex;
+    flex-direction: column;
+}
+
+.navItem {
+    font-size: 16px;
+}
+
+.navGroup:not(:last-child)::after {
+    margin-left: 6px;
+    margin-right: 6px;
+    content: "";
+    display: inline-block;
+    width: 16px;
+    flex-grow: 0;
+    justify-content: center;
+    background: url("/navbar-icon.gif") no-repeat center;
+}
+
+.navLink {
+    color: #f2a400;
+    text-decoration: underline;
+}
+
+.navEmpty {
+    color: #967329;
+    font-style: italic;
+    opacity: 80%;
+    user-select: none;
+}
+
+.navItem {
+    color: white;
+    font-family: serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.navItem:after {
+    white-space: pre;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: .75rem;
+    --tw-content: " | ";
+    content: var(--tw-content)
+}
+
+.navItem:last-child:after {
+    --tw-content: none;
+    content: var(--tw-content)
+}

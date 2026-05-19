@@ -1,0 +1,77 @@
+@font-face {
+    font-family: courier;
+    src:url('/fonts/courier/courier-new-normal.woff2') format("woff2");
+    font-display:swap;
+    font-weight:500;
+    font-style:normal
+}
+@font-face {
+    font-family: courier;
+    src:url('/fonts/courier/courier-new-italics.woff2') format("woff2");
+    font-display:swap;
+    font-weight:500;
+    font-style:italic
+}
+@font-face {
+    font-family: courier;
+    src:url('/fonts/courier/courier-new-bold.woff2') format("woff2");
+    font-display:swap;
+    font-weight:700;
+    font-style:normal
+}
+@font-face {
+    font-family: courier;
+    src:url('/fonts/courier/courier-new-bold-italic.woff2') format("woff2");
+    font-display:swap;
+    font-weight:700;
+    font-style:italic
+}
+
+@font-face {
+    font-family: garamondPro;
+    src: url('/fonts/GaramondPro.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: garamondPro;
+    src:url('/fonts/garamond/garamond-pro-normal.woff2') format("woff2");
+    font-display:swap;
+    font-weight:400;
+    font-style:normal
+}
+@font-face {
+    font-family: garamondPro;
+    src:url('/fonts/garamond/garamond-pro-normal.woff2') format("woff2");
+    font-display:swap;
+    font-weight:400;
+    font-style:italic
+}
+@font-face {
+    font-family: garamondPro;
+    src:url('/fonts/garamond/garamond-pro-semibold.woff2') format("woff2");
+    font-display:swap;
+    font-weight:600;
+    font-style:normal
+}
+@font-face {
+    font-family: garamondPro;
+    src:url('/fonts/garamond/garamond-pro-semibold-italic.woff2') format("woff2");
+    font-display:swap;
+    font-weight:600;
+    font-style:italic
+}
+@font-face {
+    font-family: garamondPro;
+    src:url('/fonts/garamond/garamond-pro-bold.woff2') format("woff2");
+    font-display:swap;
+    font-weight:700;
+    font-style:normal
+}
+@font-face {
+    font-family: garamondPro;
+    src:url('/fonts/garamond/garamond-pro-bold-italic.woff2') format("woff2");
+    font-display:swap;
+    font-weight:700;
+    font-style:italic
+}
