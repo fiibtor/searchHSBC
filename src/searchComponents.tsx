@@ -6,7 +6,7 @@ interface navBarItem {
 export function NavBar() {
     const items: navBarItem[][] = [
         [{title: "fiibtor", url: "https://www.fiibtor.tumblr.com"}],
-        [{title: "Search", url: "https://fiibtor.github.io/searchhsbc/"},
+        [{title: "Search", url: "https://fiibtor.github.io/searchHSBC/"},
             {title: "Map", url: ""}],
         [{title: "caucgen", url: "https://fiibtor.github.io/caucgen/"},
             {title: "ultText", url: "https://fiibtor.github.io/ultText/"}],
