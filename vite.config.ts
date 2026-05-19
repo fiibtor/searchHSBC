@@ -4,7 +4,7 @@ import {defineConfig} from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "https://fiibtor.github.io/searchhsbc/",
+  base: "/searchHSBC/",
   plugins: [react(),
     tailwindcss()],
 })
